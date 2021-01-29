@@ -80,6 +80,8 @@ Url that can be used via postman are:
    GET METHOD to access all the articels present:
    Example Json:
    
+   
+   
    `[{
         "id": "723f4b20-857a-449c-b73e-26cbc9e59513",
         "headline": "Coronavirus Lockdown",
@@ -88,7 +90,9 @@ Url that can be used via postman are:
         "author_id": "17f204e1-bbae-4e6d-9fd1-fffaeeee296b",
         "categories": "Coronavirus Lockdown",
         "updated_at": "2021-01-20T20:26:16.387621Z"
-    },{
+    }
+    
+    `,{
         "id": "1bde5a99-1140-4023-993a-3ec51ff5435f",
         "headline": "Coronavirus Lockdown V2",
         "content": "Detail content of articel",
@@ -96,7 +100,7 @@ Url that can be used via postman are:
         "author_id": "17f204e1-bbae-4e6d-9fd1-fffaeeee296b",
         "categories": "Coronavirus Lockdown V2",
         "updated_at": "2021-01-20T20:02:42.465979Z"
-    }]`
+    `}`]`
    
 4. User list 127.0.0.1:8000/blog/users/ returns all the user present 
 
